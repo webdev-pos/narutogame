@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.text {
+    position: relative;
+    top: -225px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text h1 {
+    color: white;
+}
+.team {
+    position: relative;
+    top: -200px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.team h1 {
+    font-size: 35px;
+    color: white;
+}
+.team-images {
+    position: relative;
+    top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.team-images img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*Characters */
+.row-1 {
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.row-2 {
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.characters img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.background {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 320px 100px;
+}
+.background img {
+    max-width: 100%;  
+    height: auto;  
+}
+.lock-btn {
+    padding: 20px 10px;
+}
+
+.lock-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 250px;
+    bottom: 445px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(41, 37, 37);
+    padding: 12px 70px;
+    border: 1px solid rgb(41, 37, 37);
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color:rgb(87, 81, 81);
+}

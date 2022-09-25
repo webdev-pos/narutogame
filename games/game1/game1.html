@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game1.css">
+    <title>Naruto Webgame</title>
+</head>
+<body>
+<div id="topInformation" class="topInformation">
+    <div id="topArea" class="topArea">
+        <h1 id="timeClock" class="timeClock" ></h1>
+    </div>
+</div>
+
+
+    <div class="yourTeam">
+        <div class="yourCurrentCharacter">
+            <img src="" id="yourCurrentCharacterImg" class="yourCurrentCharacterImg" alt="">
+            <h2 id="yourCharacterName" class="yourCharacterName"></h2>
+            <h1 id="yourCharacterHealthBar" class="yourCharacterHealthBar"></h1>
+            <h1 id="yourCharacterChakraBar" class="yourCharacterChakraBar"></h1>
+              </div>
+        <div class="yourSwitchCharacters">
+            <img src="" id="yourSwitchCharacterImg1" class="yourSwitchCharacterImg1" alt="">
+            <img src="" id="yourSwitchCharacterImg2" class="yourSwitchCharacterImg2" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="opponentTeam">
+        <div class="opponentCurrentCharacter">
+            <img src="" id="opponentCurrentCharacterImg" class="opponentCurrentCharacterImg" alt="">
+            <h2 id="opponentCharacterName" class="opponentCharacterName"></h2>
+            <h1 id="opponentHealthBar"  class="opponentHealthBar"></h1>
+            <h1 id="opponentChakraBar" class="opponentChakraBar"></h1>
+        </div>
+        <div class="opponentSwitchCharacters">
+            <img id="opponentSwitchCharacterImg1" class="opponentSwitchCharacterImg1" src="" alt="">
+            <img src="" id="opponentSwitchCharacterImg2" class="opponentSwitchCharacterImg2" alt="">
+        </div>
+    </div>
+
+    <div style="width: 100%;" id="bar" class="bar">
+        <button class="attack"><span class="attack-span">ATTACK</span></button>
+        <button class="switch"><span class="switch-span">SWITCH CHARACTER</span></button>
+        <button class="mold"><span class="mold-span">MOLD CHAKRA</span></button>
+        <button class="defense"><span class="defense-span">DEFENSE</span></button>
+    </div>
+
+    <script src="healthbar.js"></script>
+    <script type="module" src="game1.js"></script>
+</body>
+</html>
